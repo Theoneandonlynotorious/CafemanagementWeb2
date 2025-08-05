@@ -20,4 +20,4 @@ else:
                     break
             save_json("orders.json", orders)
             st.success("Order marked as Preparing.")
-            st.experimental_rerun()
+            st.rerun()
